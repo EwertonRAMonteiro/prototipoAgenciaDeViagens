@@ -108,59 +108,56 @@ main {
 /*  configurações para o footer tanto para alinhamento
     quanto para cores e afins */
 
-footer {
-    display: flex;
-    grid-area: footer;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    background-color: rgb(108, 40, 218) ;
-
-}
-
-.f {
-    display: flex;
-    width: 100%;
-    height: 100%;
-
-    align-items: center;
-    background-color: rgb(108, 40, 218);
-    color: white;
-    flex-direction: row;
-}
-
-.textoFooter{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: 2% 9% 0% 9%;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(108, 40, 218);
-    color: white;
-}
-
-.footerInfo {
-    width: 100%;
-    height: 100%;
-    display: flex;    
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 2% 9% 2% 9%;
-    text-align: center;
-
-}
-
-/*  configurar estilo/forma das informações do .Dev */
-
-.idDev {
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1%;
-}
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background-color: rgb(108, 40, 218);
+        color: white;
+        grid-area: footer;
+    
+    
+    }
+    
+    .box-table{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
+        padding: 10px;
+    }
+    hr{
+        width: 100%;
+        padding: 1px;
+    }
+    footer > div > table, tr{
+        display: flex;
+        flex-direction: column;
+    }
+    footer a{
+        color: white;
+    }
+    footer a:hover{
+        color: white;
+    } 
+    .rodFlex{
+        text-decoration: none;
+        display: flex;
+    }
+    .tab{
+        margin-top: 50px;
+    }
+    .red-sociais{
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .red-sociais > div > a{
+        margin: 5px;
+    }
